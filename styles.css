@@ -156,33 +156,32 @@ footer {
   border-radius: 10px;
   box-shadow: var(--card-shadow);
   max-width: 90%;
-  width: 400px;
+  width: 600px;
   max-height: 80vh;
   overflow-y: auto;
 }
 
-#chapters-list, #verses-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  gap: 10px;
-  margin-top: 10px;
+.popup-content h3 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-#chapters-list button, #verses-grid button {
-  padding: 10px;
-  font-size: 14px;
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.chapter-container {
+  margin-bottom: 20px;
 }
 
-#chapters-list button:hover, #verses-grid button:hover {
-  background-color: var(--secondary-color);
+.chapter-container h4 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
 }
 
-#close-popup, #back-to-chapters {
+.chapter-container p {
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#close-popup {
   margin-top: 20px;
   width: 100%;
 }
