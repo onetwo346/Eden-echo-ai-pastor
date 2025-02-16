@@ -1,188 +1,188 @@
 :root {
- --primary-color: #4CAF50;
- --secondary-color: #45a049;
- --background-color: #f4f4f4;
- --text-color: #333;
- --card-background: white;
- --card-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  --primary-color: #4CAF50;
+  --secondary-color: #45a049;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --card-background: white;
+  --card-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
- --background-color: #1e1e1e;
- --text-color: #f4f4f4;
- --card-background: #2d2d2d;
- --card-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  --background-color: #1e1e1e;
+  --text-color: #f4f4f4;
+  --card-background: #2d2d2d;
+  --card-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 body {
- font-family: Arial, sans-serif;
- background-color: var(--background-color);
- color: var(--text-color);
- margin: 0;
- padding: 0;
- display: flex;
- justify-content: center;
- align-items: center;
- min-height: 100vh;
- transition: background-color 0.3s, color 0.3s;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .intro-container, .container {
- text-align: center;
- background-color: var(--card-background);
- padding: 20px;
- border-radius: 10px;
- box-shadow: var(--card-shadow);
- max-width: 800px;
- width: 100%;
- margin: 20px;
+  text-align: center;
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  max-width: 800px;
+  width: 100%;
+  margin: 20px;
 }
 
 h1, h2, h3 {
- color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .pulsating-button {
- background-color: var(--primary-color);
- color: white;
- padding: 15px 30px;
- border: none;
- border-radius: 5px;
- font-size: 18px;
- cursor: pointer;
- animation: pulse 2s infinite;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
- 0% { transform: scale(1); }
- 50% { transform: scale(1.1); }
- 100% { transform: scale(1); }
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
 .bible-section, .table-of-contents, .quotes-section, .chat-section, .devotions-section, .community-section {
- margin: 20px 0;
- padding: 20px;
- background-color: var(--card-background);
- border-radius: 10px;
- box-shadow: var(--card-shadow);
+  margin: 20px 0;
+  padding: 20px;
+  background-color: var(--card-background);
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
 }
 
 .search-box, .chat-box {
- display: flex;
- justify-content: center;
- gap: 10px;
- margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 select, input {
- padding: 10px;
- font-size: 16px;
- border: 1px solid #ccc;
- border-radius: 5px;
- background-color: var(--card-background);
- color: var(--text-color);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--card-background);
+  color: var(--text-color);
 }
 
 button {
- padding: 10px 20px;
- font-size: 16px;
- cursor: pointer;
- background-color: var(--primary-color);
- color: white;
- border: none;
- border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 button:hover {
- background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .verse-display, #quotes-feed, #chat-response, #devotions-content {
- margin-top: 10px;
- font-size: 18px;
- color: var(--text-color);
+  margin-top: 10px;
+  font-size: 18px;
+  color: var(--text-color);
 }
 
 #quotes-feed {
- font-style: italic;
- color: #777;
+  font-style: italic;
+  color: #777;
 }
 
 .table-of-contents .books-grid {
- display: grid;
- grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
- gap: 10px;
- margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .table-of-contents .books-grid button {
- width: 100%;
- padding: 10px;
- font-size: 14px;
- background-color: var(--primary-color);
- color: white;
- border: none;
- border-radius: 5px;
- cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .table-of-contents .books-grid button:hover {
- background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 footer {
- margin-top: 20px;
- font-size: 14px;
- color: #777;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
 }
 
 /* Pop-up Styles */
 .popup-container {
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background-color: rgba(0, 0, 0, 0.7);
- display: flex;
- justify-content: center;
- align-items: center;
- z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 
 .popup-content {
- background-color: var(--card-background);
- padding: 20px;
- border-radius: 10px;
- box-shadow: var(--card-shadow);
- max-width: 90%;
- width: 400px;
- max-height: 80vh;
- overflow-y: auto;
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  max-width: 90%;
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 #chapters-list, #verses-grid {
- display: grid;
- grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
- gap: 10px;
- margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
 }
 
 #chapters-list button, #verses-grid button {
- padding: 10px;
- font-size: 14px;
- background-color: var(--primary-color);
- color: white;
- border: none;
- border-radius: 5px;
- cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 #chapters-list button:hover, #verses-grid button:hover {
- background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 #close-popup, #back-to-chapters {
- margin-top: 20px;
- width: 100%;
+  margin-top: 20px;
+  width: 100%;
 }
