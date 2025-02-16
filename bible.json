@@ -1,0 +1,35 @@
+{
+  "books": [
+    {
+      "name": "Genesis",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "In the beginning, God created the heavens and the earth.",
+            "The earth was without form and void, and darkness was over the face of the deep.",
+            "And the Spirit of God was hovering over the face of the waters."
+          ]
+        },
+        {
+          "verses": [
+            "Thus the heavens and the earth were finished, and all the host of them.",
+            "And on the seventh day God finished his work that he had done, and he rested on the seventh day from all his work that he had done."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exodus",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "These are the names of the sons of Israel who came to Egypt with Jacob, each with his household.",
+            "Reuben, Simeon, Levi, and Judah."
+          ]
+        }
+      ]
+    }
+  ]
+}
