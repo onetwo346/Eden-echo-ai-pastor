@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eden Echo AI Pastor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Introduction Page -->
+  <div id="intro-page" class="intro-container">
+    <h1>Welcome to Eden Echo AI Pastor</h1>
+    <p>Your gateway to divine wisdom and spiritual growth. Explore the Bible, receive daily inspiration, and engage with an AI pastor for guidance and teachings.</p>
+    <button id="enter-button" class="pulsating-button">Tap to Enter the Kingdom of Heaven</button>
+  </div>
+
+  <!-- Main Page (Hidden by Default) -->
+  <div id="main-page" class="container" style="display: none;">
+    <!-- Bible Verse Library -->
+    <div class="bible-section">
+      <h2>Bible Verse Library</h2>
+      <div class="search-box">
+        <select id="book">
+          <option value="">Select a Book</option>
+          <optgroup label="Old Testament" id="old-testament-books"></optgroup>
+          <optgroup label="New Testament" id="new-testament-books"></optgroup>
+        </select>
+        <input type="number" id="chapter" placeholder="Chapter" min="1">
+        <input type="number" id="verse" placeholder="Verse" min="1">
+        <button id="fetch-verse">Search</button>
+      </div>
+      <div class="verse-display">
+        <p id="verse-text"></p>
+        <p id="verse-context"></p>
+      </div>
+    </div>
+
+    <!-- Table of Contents for Bible Books -->
+    <div class="table-of-contents">
+      <h2>Table of Contents</h2>
+      <div class="testament-grid">
+        <h3>Old Testament</h3>
+        <div id="old-testament" class="books-grid"></div>
+      </div>
+      <div class="testament-grid">
+        <h3>New Testament</h3>
+        <div id="new-testament" class="books-grid"></div>
+      </div>
+    </div>
+
+    <!-- Pop-up for Chapters and Verses -->
+    <div id="chapters-popup" class="popup-container" style="display: none;">
+      <div class="popup-content">
+        <h3 id="popup-book-title"></h3>
+        <div id="chapters-list"></div>
+        <div id="verses-list" style="display: none;">
+          <h4 id="verses-title"></h4>
+          <div id="verses-grid"></div>
+          <button id="back-to-chapters">Back to Chapters</button>
+        </div>
+        <button id="close-popup">Close</button>
+      </div>
+    </div>
+
+    <!-- Live Feed of Daily Quotes -->
+    <div class="quotes-section">
+      <h2>Daily Inspiration</h2>
+      <div id="quotes-feed"></div>
+    </div>
+
+    <!-- AI Pastor Chatbot -->
+    <div class="chat-section">
+      <h2>AI Pastor Chat</h2>
+      <div class="chat-box">
+        <input type="text" id="chat-input" placeholder="Ask a question...">
+        <button id="send-chat">Send</button>
+      </div>
+      <div id="chat-response"></div>
+    </div>
+
+    <!-- Daily Devotions -->
+    <div class="devotions-section">
+      <h2>Daily Devotions</h2>
+      <div id="devotions-content"></div>
+    </div>
+
+    <!-- Community Interaction -->
+    <div class="community-section">
+      <h2>Community Discussion</h2>
+      <p>Coming soon! Join others in sharing insights and asking questions.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Designed by Kofi Fosu | cosmoscoderr@gmail.com</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
