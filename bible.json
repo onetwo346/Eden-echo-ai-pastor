@@ -69,3 +69,151 @@
     }
   ]
 }
+{
+  "books": [
+    {
+      "name": "Joshua",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "After the death of Moses the servant of the Lord, the Lord said to Joshua the son of Nun, Moses' assistant.",
+            "Moses my servant is dead. Now therefore arise, go over this Jordan, you and all this people, into the land that I am giving to them, to the people of Israel."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Judges",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "After the death of Joshua, the people of Israel inquired of the Lord, 'Who shall go up first for us against the Canaanites, to fight against them?'",
+            "The Lord said, 'Judah shall go up; behold, I have given the land into his hand.'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ruth",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "In the days when the judges ruled there was a famine in the land, and a man of Bethlehem in Judah went to sojourn in the country of Moab, he and his wife and his two sons.",
+            "The name of the man was Elimelech and the name of his wife Naomi, and the names of his two sons were Mahlon and Chilion."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1 Samuel",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "There was a certain man of Ramathaim-zophim of the hill country of Ephraim whose name was Elkanah the son of Jeroham, son of Elihu, son of Tohu, son of Zuph, an Ephrathite.",
+            "He had two wives. The name of the one was Hannah, and the name of the other, Peninnah. And Peninnah had children, but Hannah had no children."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 Samuel",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "After the death of Saul, when David had returned from striking down the Amalekites, David remained two days in Ziklag.",
+            "And on the third day, behold, a man came from Saul's camp, with his clothes torn and dirt on his head."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1 Kings",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "Now King David was old and advanced in years. And although they covered him with clothes, he could not get warm.",
+            "Therefore his servants said to him, 'Let a young woman be sought for my lord the king, and let her wait on the king and be in his service. Let her lie in your arms, that my lord the king may be warm.'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 Kings",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "After the death of Ahab, Moab rebelled against Israel.",
+            "Now Ahaziah fell through the lattice in his upper chamber in Samaria, and lay sick; so he sent messengers, telling them, 'Go, inquire of Baal-zebub, the god of Ekron, whether I shall recover from this sickness.'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1 Chronicles",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "Adam, Seth, Enosh;",
+            "Kenan, Mahalalel, Jared;"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 Chronicles",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "Solomon the son of David established himself in his kingdom, and the Lord his God was with him and made him exceedingly great.",
+            "Solomon spoke to all Israel, to the commanders of thousands and of hundreds, to the judges, and to all the leaders in all Israel, the heads of fathers' houses."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ezra",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "In the first year of Cyrus king of Persia, that the word of the Lord by the mouth of Jeremiah might be fulfilled, the Lord stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom and also put it in writing:",
+            "'Thus says Cyrus king of Persia: The Lord, the God of heaven, has given me all the kingdoms of the earth, and he has charged me to build him a house at Jerusalem, which is in Judah.'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nehemiah",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "The words of Nehemiah the son of Hacaliah. Now it happened in the month of Chislev, in the twentieth year, as I was in Susa the citadel,",
+            "that Hanani, one of my brothers, came with certain men from Judah. And I asked them concerning the Jews who escaped, who had survived the exile, and concerning Jerusalem."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Esther",
+      "testament": "OT",
+      "chapters": [
+        {
+          "verses": [
+            "Now in the days of Ahasuerus, the Ahasuerus who reigned from India to Ethiopia over 127 provinces,",
+            "in those days when King Ahasuerus sat on his royal throne in Susa, the citadel,"
+          ]
+        }
+      ]
+    }
+  ]
+}
